@@ -1,71 +1,15 @@
-# Configuração Jekyll - Tema Chirpy
-remote_theme: cotes2020/jekyll-theme-chirpy
-
-# Informações do site
+remote_theme: abhinavs/moonwalk
 title: DevGreen News
-description: >-
-  Portal independente de notícias e análises sobre devgreen news.
-  Conteúdo editorial focado em sustentabilidade, economia circular e inovação ambiental.
+description: Portal independente de notícias sobre sustentabilidade e economia circular
 url: "https://ambisocial.github.io"
 baseurl: "/devgreen-news"
-
-# Autor
 author: Redação DevGreen News
 email: contato@devgreen-news.com
-
-# Idioma e timezone
 lang: pt-BR
 timezone: America/Sao_Paulo
-
-# Plugins (compatíveis com GitHub Pages)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-archives
-
-# Configurações de build
 markdown: kramdown
 highlighter: rouge
-paginate: 10
-paginate_path: "/page:num/"
-
-# RSS Feed
-feed:
-  posts_limit: 20
-  excerpt_only: false
-
-# SEO
-twitter:
-  username: devgreen-news
-  card: summary_large_image
-
-# PWA
-pwa:
-  enabled: true
-  sw_src: /sw.js
-
-# Analytics (opcional - desativado por padrão)
-google_analytics:
-  id: # GA-XXXXXXX
-
-# Comentários (desativado)
-comments:
-  active: # vazio = desativado
-
-# Layout padrão
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: false
-      toc: true
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      comments: false
