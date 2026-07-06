@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "O Resíduo que Virou Patente: Dentro do Laboratório Onde a Sustentabilidade Ganha Forma"
-date: 2026-07-07
+date: 2026-07-07 10:35:00 -0300
+categories: [Sustentabilidade, Economia Circular]
+tags: [economia-circular, gestao-ambiental, inovacao, esg]
 author: Fernanda Ribeiro
-tags: ["inovacao-ambiental", "patentes", "pd-i", "laboratorio"]
 ---
 
 # O Resíduo que Virou Patente: Dentro do Laboratório da a empresa Onde a Economia Circular Ganha Forma
