@@ -1,0 +1,17 @@
+title: "DevGreen News"
+description: "tecnologia e desenvolvimento sustentável"
+baseurl: "/ambipar-devgreen"
+url: "https://ambisocial.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+permalink: /:year/:month/:day/:title/
+author:
+  name: "Redação DevGreen News"
+  email: "contato@ambipar-devgreen.com"
+social:
+  name: DevGreen News
+  links:
+    - https://github.com/ambisocial/ambipar-devgreen
